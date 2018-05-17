@@ -3,10 +3,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include "TutorialConfig.h"
+
+
 int main (int argc, char *argv[])
 {
   if (argc < 2){
-    fprintf(stdout,"Usage: %s number\n",argv[0]);
+    fprintf(stdout,
+            "%s version %d.%d\n",
+            argv[0],
+            TUTORIAL_VERSION_MAJOR,
+            TUTORIAL_VERSION_MINOR);
+    fprint(stdout, "Usage: %s number\n", arg[0]);
     return 1;
   }
   double inputValue = atof(argv[1]);

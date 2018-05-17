@@ -1,4 +1,4 @@
-// TutorialConfig.h
+// TutorialConfig.h.in
 
 // the configured options and settings for Tutorial
 #define Tutorial_VERSION_MAJOR @Tutorial_VERSION_MAJOR@
