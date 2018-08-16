@@ -1,7 +1,8 @@
 # CMake Tutorial | CMake
 
-- https://cmake.org/cmake-tutorial/
+- [CMake Tutorial | CMake](https://cmake.org/cmake-tutorial/)
 
 
-## A Basic Starting Point (Step1)
+- A Basic Starting Point (Step1)
+  - Adding a Version Number and Configured Header File
 
