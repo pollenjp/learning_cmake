@@ -1,5 +1,5 @@
 # CMake
 
-- https://cmake.org/
-- <a herf="https://cmake.org/documentation/">CMake Documentation</a>
+- [CMake](https://cmake.org/)
+- [Documentation | CMake](https://cmake.org/documentation/)
 
