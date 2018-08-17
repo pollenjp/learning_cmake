@@ -1,0 +1,3 @@
+[submodule "IntroductionToCMakeByExample__by_DerekMolloy/exploringBB"]
+	path = IntroductionToCMakeByExample__by_DerekMolloy/exploringBB
+	url = https://github.com/derekmolloy/exploringBB.git
