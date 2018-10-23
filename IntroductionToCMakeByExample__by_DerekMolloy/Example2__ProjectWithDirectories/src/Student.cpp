@@ -1,8 +1,5 @@
-// Student.cpp
-
 #include <iostream>
 #include "Student.h"
-
 
 Student::Student( std::string name ):name( name ){}
 

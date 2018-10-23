@@ -1,5 +1,3 @@
-// Student.h
-
 #include <string>
 
 class Student {
