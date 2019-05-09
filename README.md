@@ -11,5 +11,6 @@
 
 
 - [CMake資料 - ryamadaのコンピュータ・数学メモ](https://ryamada.hatenadiary.jp/entry/20151024/1445555866)
+    - [cmake チュートリアルを読む前に - Qiita](https://qiita.com/maueki/items/9cce88f6122e205754c5)
 - [CMakeのお勉強（１） - 空飛ぶロボットのつくりかた](http://robonchu.hatenablog.com/entry/2018/10/20/231304)
 - [CMakeのお勉強（2） - 空飛ぶロボットのつくりかた](http://robonchu.hatenablog.com/entry/2018/10/21/095754)
