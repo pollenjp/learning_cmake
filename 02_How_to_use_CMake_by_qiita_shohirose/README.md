@@ -6,5 +6,17 @@
 
 ```shell
 user@localpc%
-cmake -DBUILD_SHARED_LIBS=ON ..
+mkdir build && cd build
+user@localpc%
+cmake -D GREETINGS_BUILD_SHARED_LIBS=OFF ..
+user@localpc%
+make
+user@localpc%
+./test/a.out
+Hello!
+Good morning!
+```
+
+```shell
+user@localpc%
 ```
