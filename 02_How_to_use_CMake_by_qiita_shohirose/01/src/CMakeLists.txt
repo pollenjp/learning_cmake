@@ -1,3 +1,4 @@
+#-------------------------------------------------------------------------------
 # GREETINGS_BUILD_SHARED_LIBSというオプションを作成。デフォルトをOFFに設定。
 option(#[[ <option_variable> ]] GREETINGS_BUILD_SHARED_LIBS
        #[[ "help string"     ]] "build greetings as a shared library"
@@ -14,6 +15,11 @@ else()
               #[[ source1 [source2 ...]      ]] hello.cpp
                                                 good_morning.cpp)
 endif()
+#-------------------------------------------------------------------------------
+# 上記の記述は本来であれば変数BUILD_SHARED_LIBSのON,OFFによってSHARED,STATICを
+# 操作すべきであるが、ここでは練習。
+#-------------------------------------------------------------------------------
+
 
 # greetingライブラリのインクルードディレクトリを教えてあげる
 # PROJECT_SOURCE_DIRはこのプロジェクトのルートディレクトリの絶対パス

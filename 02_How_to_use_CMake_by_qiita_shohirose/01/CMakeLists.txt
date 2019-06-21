@@ -8,7 +8,8 @@ project(#[[<PROJECT-NAME>]] test_cmake
         #[[ [LANGUAGES]  ]] CXX)
 
 # debug flag 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O0 -g")
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -O0 -g")
 
 # サブディレクトリを登録
 add_subdirectory(src)
